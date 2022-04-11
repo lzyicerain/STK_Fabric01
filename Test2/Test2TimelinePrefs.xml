@@ -1,0 +1,16 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Test2 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Test2" Type = "IntervalList">
+                <Interval Name = "Test2 AvailabilityIntervals" StartTime = "10 Apr 2022 04:00:00.000" StopTime = "10 Apr 2022 14:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-Sensor-Sensor1-To-Place-Place1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Test2/Satellite/Satellite1/Sensor/Sensor1;/Application/STK/Scenario/Test2/Place/Place1" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Place-Place1 AccessIntervals" StartTime = "10 Apr 2022 04:07:27.291" StopTime = "10 Apr 2022 04:10:02.611" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Test2" GlobalStartOffset = "0.000000" GlobalStartTime = "10 Apr 2022 04:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "10 Apr 2022 14:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
